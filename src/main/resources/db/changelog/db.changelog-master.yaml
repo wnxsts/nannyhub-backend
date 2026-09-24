@@ -1,0 +1,24 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/001-create-users.yaml
+
+  - include:
+      file: db/changelog/002-create-parent-profiles.yaml
+
+  - include:
+      file: db/changelog/003-create-nanny-profiles.yaml
+
+  - include:
+      file: db/changelog/004-add-nanny-profile-fields.yaml
+
+  - include:
+      file: db/changelog/005-create-swipes.yaml
+
+  - include:
+      file: db/changelog/006-create-matches.yaml
+
+  - include:
+      file: db/changelog/007-create-chats.yaml
+
+  - include:
+      file: db/changelog/008-create-messages.yaml

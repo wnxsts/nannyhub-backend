@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - changeSet:
+      id: 004-add-nanny-profile-fields
+      author: zhanel
+      changes:
+        - addColumn:
+            tableName: nanny_profiles
+            columns:
+              - column:
+                  name: experience_years
+                  type: int
+              - column:
+                  name: rate_hour
+                  type: int
+              - column:
+                  name: verified
+                  type: boolean
+                  defaultValueBoolean: false
