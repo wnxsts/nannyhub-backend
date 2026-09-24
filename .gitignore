@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.DS_Store
+Icon?
